@@ -6,16 +6,18 @@
 html , body{
     height: 100%;
     width: 100%;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    background-color: black;
 }
 
 #main{
     min-height: 100vh;
+    position: relative;
 }
 
 #nav{
     text-transform: uppercase;
-    background-color: red;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,3 +69,76 @@ button{
     height: 100vh;
     background-color: purple;
 } */
+
+#hero{
+    height: 80vh;
+  
+    width: 95%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    line-height: 1.1;
+    padding: 7% 0%;
+    position: relative;
+}
+
+#wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 92%;
+    position: absolute;
+    padding: 18%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+
+#title h1{
+    font-size: 15vh;
+    
+}
+
+
+
+
+
+#book{
+    display: inline-block;
+  /* width: 100px; */
+  background-color: brown;
+  font-size: 3.5vh;
+  font-family: 'Merriweather', serif;
+  font-weight: 500;
+  padding:3% 10%;
+  border-radius: 10rem;
+}
+
+#dh3{
+    margin: 3% 0%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    width:25vw ;
+   
+}
+#dh3 h3{
+    font-size: 2.2vh;
+    font-weight: 100;
+}
+
+#dh3 i{
+    font-size: 10vh;
+    
+}
+
