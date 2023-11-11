@@ -7,6 +7,8 @@ html , body{
     height: 100%;
     width: 100%;
     font-family:'Cormorant Garamond', serif;
+    background-color: rgb(185, 185, 185);
+
 }
 
 
@@ -67,6 +69,64 @@ nav{
 
 }
 
+#hero{
+    height: 100vh;
+    margin-top: 2%;
+    padding: 0.5vw 7vw;
+    
+}
+
+#images{
+    height: 100%;
+    position: relative;
+}
+
+#images img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 3%;
+    border:solid 2px rgb(0, 0, 0);
+    box-shadow: 10px 10px 20px black;
+}
+
+
+
+#img1{
+    height: 40%;
+    top: 20%;
+    left: 20%;
+    z-index: 3;
+}
+
+#img2{
+    height: 60%;
+    left: 89.5%;
+    top: 40%;
+}
+
+#img3{
+    height: 70%;
+    top: 50%;
+    left: 45%;
+}
+
+#img4{
+    height: 50%;
+    top: 70%;
+    left: 10%;
+}
+
+#img6{
+    height: 45%;
+    left: 80%;
+    top: 75%;
+}
+
+#img7{
+    height: 40%;
+    left: 77.5%;
+    top: 25%;
+}
 
 
 
