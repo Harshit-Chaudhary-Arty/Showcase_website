@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family:'Cormorant Garamond', serif;
+}
+
+nav{
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw 7vw;
+
+}
+
+#links{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
+}
+
+#links i{
+    font-size: 0.9vw;
+    font-weight: 100;
+}
+
+#logo img {
+    height: 3vw;
+    width: 3vw;
+    /* background-color: blue; */
+}
