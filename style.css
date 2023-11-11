@@ -43,3 +43,59 @@ nav{
     width: 3vw;
     /* background-color: blue; */
 }
+
+#hero{
+    height: 100vh;
+    /* width: 100vw; */
+    padding: 0.9vw 7vw;
+    position: relative;
+
+}
+
+#hero #images{
+    /* display: flex; */
+    /* width: 100%; */
+}
+
+#images{
+    /* width: 100%; */
+}
+
+/* #images img{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border: 2px thin rgb(0, 0, 0);
+} */
+
+#img1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 20vw;
+    z-index: 2;
+    top: 50%;
+    left: 30%;
+} 
+
+#img2{
+    height: 15vw;
+}
+
+#img3{
+    height: 30vw;
+}
+
+#img4{
+    height: 25vw;
+}
+
+#img5{
+    height: 20vw;
+}
+
+#img6{
+    height: 25vw;
+}
+
+#img7{
+    height: 15vw;
+}
