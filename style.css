@@ -44,7 +44,10 @@ justify-content: space-between;}
     font-size: 1.8vh;
 }
 
-
+#links a:hover{
+    color: rgb(105, 250, 38);
+    transition: 0.2s;
+}
 
 
 button{
@@ -59,7 +62,7 @@ button{
 
 button:hover{
     background-color: rgb(105, 250, 38);
-    transform: 0.3S;
+    transition: 0.3s;
 }
 
 #b1{
@@ -210,6 +213,11 @@ button:hover{
     justify-content: space-between;
 
 }
+
+#socials i:hover{
+    color: rgb(105, 250, 38);
+}
+
 #scroll{
     display: flex;
     align-items: center;
