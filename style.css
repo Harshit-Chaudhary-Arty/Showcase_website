@@ -73,7 +73,7 @@ button{
 }
 
 #hero{
-    height: 80vh;
+    height: 73vh;
     width: 95%;
     position: relative;
     /* transform: translate(-50%,-50%); */
@@ -141,14 +141,16 @@ button{
 }
 
 .pic{
+    border: none;
+    border-radius: 1rem;
     position: absolute;
     transform: translate(-50%,-50%);
 }
 
 #p1{
     left: 30%;
-    height:28vh ;
-    bottom: -18%;
+    height:26vh ;
+    bottom: -25%;
     z-index: -6;
 }
 
@@ -171,3 +173,46 @@ button{
     bottom: -14%;
 }
 
+#hfoot{
+    width: 100vw;
+    height: 15vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    padding: 3% 2%;
+
+}
+
+#socials{
+    font-size: 4vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: space-between;
+
+}
+#scroll{
+    display: flex;
+    align-items: center;
+}
+
+#scroll h3,a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    font-weight: 100;
+    padding-right: 1.5vw;
+}
+
+#scroll i{
+    color: white;
+    font-size: 6vh;
+    font-weight: 100;
+}
+
+#blank{
+    width: 10%;
+}
