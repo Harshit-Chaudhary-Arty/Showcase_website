@@ -64,20 +64,21 @@ button{
 /* #page{
     height: 100vh;
     background-color: blue;
-}
-#page1{
+} */
+
+
+#page2{
     height: 100vh;
     background-color: purple;
-} */
+}
 
 #hero{
     height: 80vh;
-  
     width: 95%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
+    position: relative;
+    /* transform: translate(-50%,-50%); */
+    /* left: 50%; */
+    /* top: 50%; */
 }
 
 #title{
@@ -105,8 +106,6 @@ button{
     font-size: 15vh;
     
 }
-
-
 
 
 
@@ -139,6 +138,36 @@ button{
 
 #dh3 i{
     font-size: 10vh;
-    
+}
+
+.pic{
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+#p1{
+    left: 30%;
+    height:28vh ;
+    bottom: -18%;
+    z-index: -6;
+}
+
+#p2{
+    height: 28vh;
+    left:10%;
+    top: 30%;
+}
+
+#p3{
+    height: 20vh;
+    top: 20%;
+    left: 70%;
+    z-index: -6;
+}
+
+#p4{
+    height: 36vh;
+    left: 90%; 
+    bottom: -14%;
 }
 
