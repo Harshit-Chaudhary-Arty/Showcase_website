@@ -46,6 +46,7 @@ justify-content: space-between;}
 
 
 
+
 button{
     text-transform: uppercase;
     font-size: 1.8vh;
@@ -54,6 +55,11 @@ button{
     font-weight: 600;
     border: none;
     border-radius: 3%;
+}
+
+button:hover{
+    background-color: rgb(105, 250, 38);
+    transform: 0.3S;
 }
 
 #b1{
@@ -112,12 +118,22 @@ button{
 #book{
     display: inline-block;
   /* width: 100px; */
-  background-color: brown;
+  color: black;
   font-size: 3.5vh;
+  background-color: rgb(105, 250, 38);
+
   font-family: 'Merriweather', serif;
   font-weight: 500;
   padding:3% 10%;
   border-radius: 10rem;
+  transition: 0.3s;
+}
+
+#book:hover{
+  background-color: rgb(12, 236, 236);
+
+    color:black;
+    transition: 0.4s;
 }
 
 #dh3{
@@ -156,7 +172,7 @@ button{
 
 #p2{
     height: 28vh;
-    left:10%;
+    left:13%;
     top: 30%;
 }
 
