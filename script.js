@@ -1,7 +1,4 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
-});
+
 
 
 
@@ -63,3 +60,10 @@ gsap.to("#hfoot #scroll",{
     duration:0.5
 
 })
+
+
+
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#main'),
+//     smooth: true
+// });
